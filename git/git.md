@@ -1,16 +1,17 @@
 # git初始化配置
-
+```
 git config --global user.name "Lithium"
 git config --global user.email "loki7113@163.com"
+```
 
 # git代理设置  
 http://127.0.0.1:7899
 ## 全局代理  
 
 ```cisco
-    git config --global https.proxy "http://127.0.0.1:7890"
+git config --global https.proxy "http://127.0.0.1:7897"
 
-    git config --global http.proxy "http://127.0.0.1:7890"
+git config --global http.proxy "http://127.0.0.1:7897"
 ```  
 
 ## 查看代理
@@ -28,3 +29,4 @@ git config --get --global https.proxy
    git config --global --unset https.proxy
     
 ```
+阿萨德
